@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(arm-none-eabi-gcc -c -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -DSTM32F429xx -Wall -I Core/Inc -I Drivers/STM32F4xx_HAL_Driver/Inc -I Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I Drivers/CMSIS/Device/ST/STM32F4xx/Include -I Drivers/CMSIS/Include -I Middlewares/Third_Party/FreeRTOS/Source/include -I Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I user -I \"unitree_actuator_sdk - keilc\" -I \"unitree_actuator_sdk - keilc/user\" -I cmake/stm32cubemx user/ros_uart.c -o /tmp/ros_uart.o)",
+      "Bash(ls -la \"E:/electric control/resource/L1Demo\" 2>/dev/null | head -40)",
+      "Read(//e/electric control/resource/L1Demo/**)",
+      "Bash(ls -la \"E:/electric control/resource/STM32F0_HAL_Demo\" 2>/dev/null | head -40)",
+      "Read(//e/electric control/resource/STM32F0_HAL_Demo/**)",
+      "Bash(find \"E:/electric control/resource/L1Demo\" -type f \\\\\\( -name \"*.c\" -o -name \"*.h\" \\\\\\) | sort)",
+      "Bash(find \"E:/electric control/resource/STM32F0_HAL_Demo\" -type f \\\\\\( -name \"*.c\" -o -name \"*.h\" \\\\\\) | sort)",
+      "Read(//e/electric control/resource/L1Demo/USER/**)",
+      "Read(//e/electric control/resource/STM32F0_HAL_Demo/App/Src/**)"
+    ]
+  }
+}
